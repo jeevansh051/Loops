@@ -62,11 +62,20 @@ do
 } while (test_expression);
 ```
 ### Important Points:
-Use for a loop when a number of iterations are known beforehand, i.e.
-The number of times the loop body is needed to be executed is known.
-Use while loops, where an exact number of iterations is not known but the loop termination condition, is known.
-Use do while loop if the code needs to be executed at least once like in Menu-driven programs
+- Use for a loop when a number of iterations are known beforehand, i.e.
+- The number of times the loop body is needed to be executed is known.
+- Use while loops, where an exact number of iterations is not known but the loop termination condition, is known.
+- Use do while loop if the code needs to be executed at least once like in Menu-driven programs.
+
+### Difference of do while loop and while loop:
+- In while it first checks the condition and then execute the code.
+- In do while it first executes the code and then checks the condition.
 
 ### Outcomes:
 - The codes helps us to understand the use of loops and the syntax.
-- 
+- It prints the last 5 digits of the prn separately.(for loop)
+- It takes the input of marks from the user and the it finds and avg according to the avg it will grade.(for loop and if else)
+- Prints the table of any number taken fom the user.(using while loop)
+- Prints the table of any number taken fom the user.(using for loop)
+- Prints the table of any number taken fom the user.(using do while loop)
+- Prints the no of ones in a binary number.
